@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  
 // index.js
 const { default: makeWASocket, useMultiFileAuthState, fetchLatestBaileysVersion } = require('@whiskeysockets/baileys');
@@ -77,3 +78,6 @@ const startBot = async () => {
 };
 
 startBot();
+=======
+const { default: makeWASocket, useMultiFileAuthState } = require('@whiskeysockets/baileys');
+>>>>>>> 8809bd3b5fe18013aaa406855ff12f2547eb7dc4
